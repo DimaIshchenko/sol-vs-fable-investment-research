@@ -18,10 +18,10 @@ I don't pretend to build a comprehensive benchmark, but it's very aligned with t
 
 **Performance:**
 Sol spent 1.2M tokens with an estimated cost of $28. Interesting that 1.1M of them were input tokens.
-Fable spent 0.9M tokens with an estimated cost of $80 AND it called a Haiku model for web fetching and search with another 4.2M tokens and $7. It just decided that I'm smart enough to read the figures myself and asked the junior to do it 😄
+Fable spent 0.9M tokens with an estimated cost of $80 AND it quietly ran up another 4.2M tokens and $7 on a little background Haiku model for all the web fetching and searching 😄
 
 **Code:**
-Sol generated 60 files versus only 45 by Fable, but both of them used only about 8 data sources. Important: Fable ignored the word "only" and pulled 6 files from a different source, World Bank stats (though only 2 actually ended up in the model), plus numerous web searches.
+Sol generated 59 files versus only 44 by Fable, but both of them used only about 8 data sources. Important: Fable ignored the word "only" and pulled 6 files from a different source, World Bank stats (though only 2 actually ended up in the model), plus numerous web searches.
 So if Sol created so many artifacts, what was it doing? For example, in addition to the slide attached to this post, it created 4! versions of the same slide in additional formats.
 
 **Behaviour:**
@@ -37,7 +37,7 @@ Funny result: Sol is the optimist (5.8x base return) because nothing drags his a
 
 **Overall:**
 Sol = better deliverable engineer. Cheaper, faster, only official sources, Excel ready to send to a client. But talked to me too much and built 4 versions of one slide instead of thinking.
-Fable = better analyst. Deeper risk math, wider research, nicer written story. But ignored my "only", spent more money, and quietly hired a junior Haiku to read the data for him while asking me nothing 🥲
+Fable = better analyst. Deeper risk math, wider research, nicer written story. But ignored my "only", spent more money, and quietly cloned itself into 8 agents to do all the reading while asking me absolutely nothing 🥲
 
 If I could merge them: Fable's Monte-Carlo brain inside Sol's Excel body. That's the assistant I actually want.
 
