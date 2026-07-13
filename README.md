@@ -26,7 +26,7 @@ Why Ukrainian government statistics (Ukrstat)? Tons of open data, messy datasets
 | Est. cost | **~$28** | **~$80** (+$7 Haiku) |
 | Clarifying questions | 10+ in a ~1h session | ~3 at the start, then quiet for 2.5h |
 | Standout deliverable | live formula-driven **Excel model** | 20k-path **Monte Carlo** + Kelly optimizer |
-| Sources | official + secondary/press | official-only |
+| Sources | official-only | official + secondary/press (heavy web search) |
 
 Full breakdown → **[COMPARISON.md](./COMPARISON.md)** · exact prompt → **[PROMPT.md](./PROMPT.md)** · data provenance → **[DATA.md](./DATA.md)** · writeup → **[POST.md](./POST.md)**
 
