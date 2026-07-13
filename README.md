@@ -20,10 +20,10 @@ Why Ukrainian government statistics (Ukrstat)? Tons of open data, messy datasets
 
 | | Sol (Codex) | Fable (Claude) |
 |---|---|---|
-| Files generated | **60** | **45** |
+| Files generated | **59** | **44** |
 | Data sources actually parsed by code | ~8 | ~8 (+ heavy web search) |
-| Tokens | 1.2M (1.1M input) | 0.9M **+ 4.2M via a Haiku helper** |
-| Est. cost | **~$28** | **~$80** (+$7 Haiku) |
+| Tokens | 1.2M (1.1M input) | 0.9M (+ ~4.2M on Claude Code's background Haiku for its web tools) |
+| Est. cost | **~$28** | **~$80** (+~$7 Haiku web tooling) |
 | Clarifying questions | 10+ in a ~1h session | ~3 at the start, then quiet for 2.5h |
 | Standout deliverable | live formula-driven **Excel model** | 20k-path **Monte Carlo** + Kelly optimizer |
 | Sources | official-only | official + secondary/press (heavy web search) |

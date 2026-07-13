@@ -11,10 +11,10 @@ Two AI coding agents, the same [prompt](./PROMPT.md), the same data source (offi
 
 ### Performance
 - **Sol** spent **1.2M tokens** at an estimated **~$28**. Notably, 1.1M of those were input tokens.
-- **Fable** spent **0.9M tokens** at an estimated **~$80** — and separately called a **Haiku** model for web fetching and search, adding **4.2M tokens / ~$7**. It effectively decided I could read the figures myself and delegated the reading to a junior model.
+- **Fable** spent **0.9M tokens** at an estimated **~$80**, and its cost breakdown showed a separate **~4.2M tokens / ~$7** on a **Haiku** model — Claude Code's background helper for its built-in web-search/fetch tools. *(Correction after log audit: the research fan-out itself was **not** Haiku — it ran on 8 full `claude-fable-5` sub-agents, same tier as the main agent; see the appendix.)*
 
 ### Code
-- **Sol generated 60 files** vs **Fable's 45**, but both ultimately parsed only **~8 data sources** in code.
+- **Sol generated 59 files** vs **Fable's 44**, but both ultimately parsed only **~8 data sources** in code.
 - **Fable ignored the word "only"**: it pulled in World Bank data (6 files downloaded, 2 actually used) plus numerous web searches, whereas Sol stayed on official Ukrainian government sources.
 - Where did Sol's extra files go? Polish: e.g. it produced **4 versions of the same slide** in additional formats (PPTX, PDF, PNG, plus QA renders).
 
@@ -31,7 +31,7 @@ Where they split (see the side-by-side below):
 
 ### Overall
 - **Sol** — better *deliverable engineer*: cheaper, faster, official-only sources, Excel ready to hand to a client. But over-asked and spent effort making four slide versions.
-- **Fable** — better *analyst*: deeper risk math, wider research, a nicer written story. But ignored "only", cost more, and quietly outsourced the reading to a junior Haiku.
+- **Fable** — better *analyst*: deeper risk math, wider research, a nicer written story. But ignored "only", cost more, and spun up 8 full-power `claude-fable-5` sub-agents to do the research without asking me a thing (plus a separate ~$7 Haiku tab for background web tooling).
 
 ---
 
@@ -80,7 +80,7 @@ A key shared finding: in **both** repos the raw data feeds only the sector *scre
 | | Sol (Codex) | Fable (Claude) |
 |---|---|---|
 | Raw files downloaded | 28 (~70 MB) | 18 (~108 MB) |
-| Parsed by code | **7** (25% by count, ~54% by bytes) | **8** (44% by count, ~83% by bytes) |
+| Parsed by code | **7** (25% by count, ~52% by bytes) | **8** (44% by count, ~83% by bytes) |
 | Never read | 21 (all PDFs/HTMLs/xlsx, FX JSONs, redundant codelists) | 10 (industry 10 MB, harvests 6.5 MB, 4 World Bank pulls, wages, construction, housing, 1 failed-download error page) |
 
 Both genuinely parse their large JSON/CSV files (not transcribed by hand) — so the top-end download effort is real — but each consumes them as thin slices.
@@ -92,18 +92,18 @@ Both genuinely parse their large JSON/CSV files (not transcribed by hand) — so
 These are **raw token counts pulled from each tool's session transcript**, which include cache-read tokens and sub-agent activity. They are a different (fuller) accounting than the billed/UI headline figures above — that is why the totals look much larger. Both views are correct; they measure different things.
 
 ### Fable (Claude Code, `claude-fable-5`)
-- **726 API calls** — 232 in the main session + 494 across **8 parallel `general-purpose` sub-agents** (which is where the "Haiku helper" web work lives).
+- **~726 records** (≈725 billable API calls — one main record is a synthetic "session limit" notice) — 232 main + 494 across **8 parallel `general-purpose` sub-agents, all running on `claude-fable-5`** (same tier as the main agent; their tokens are already included in the totals below). The separate ~4.2M-token / ~$7 **Haiku** line in the cost UI is Claude Code's background model for its built-in web tools — **not** these sub-agents (internal tool-model calls aren't logged as turns, which is why a transcript audit finds only `claude-fable-5`).
 - Output **731K** tokens · uncached input **698K** · cache-creation **4.66M** · **cache-read 72.6M** → **~78.7M total tokens through the model** (~92% cache reads).
 - **~2h 21m** wall-clock. Tools: **206 WebSearch + 115 WebFetch** + 57 Bash + 18 Write + 8 Agent.
-- List-price estimate at Fable-5 rates ≈ **$174** (≈$87 at Opus-4.8 rates). No oversized data file ever entered context.
+- List-price estimate at Fable-5 rates ≈ **$174** (an estimate; the bill is dominated by the 72.6M cache-read tokens). No oversized data file ever entered context.
 
 ### Sol (Codex, `gpt-5.6-sol`, reasoning `xhigh`)
 - **~34M total tokens** for the full session (31.6M for the main build): output **110K**, reasoning **34.6K**, and ~**96% of input served from cache**. Fresh (uncached) input ≈ 1.38M.
-- **~58 min active** compute (across sittings). Tools: **255 `exec` (shell) + 16 web_search + 18 apply_patch**, 192 reasoning events.
+- **~58 min active** compute (across sittings). Tools: **255 `exec`/shell calls** (18 of them `apply_patch` — a subset, not additive) + **16 web_search**, 192 reasoning events.
 - Ran on a **ChatGPT Plus subscription → ~$0 marginal cost** (consumed 1%→11% of the 5-hour rate-limit window).
 
 ### Note on file counts
-The published folders as copied contain **59 files (Sol)** and **44 files (Fable)** — the headline "60 / 45" are the counts as I first reported them; the one-file differences are immaterial (a montage/QA artifact).
+The folders contain **59 files (Sol)** and **44 files (Fable)**, verified by `find`. The LinkedIn writeup reported these as "60 / 45" (each one high); the scorecards above use the accurate 59 / 44.
 
 ---
 
