@@ -21,12 +21,16 @@ Why Ukrainian government statistics (Ukrstat)? Tons of open data, messy datasets
 | | Sol (Codex) | Fable (Claude) |
 |---|---|---|
 | Files generated | **59** | **44** |
-| Data sources actually parsed by code | ~8 | ~8 (+ heavy web search) |
+| Raw data files: downloaded → parsed by code | 28 → **7** | 18 → **8** |
+| Distinct sources cited | 19 (all official, registered) | ~255 domains / 528 links |
+| Web calls during the run | 16 searches + ~31 curl pulls | **321** — 206 searches + 115 fetches |
 | Tokens | 1.2M (1.1M input) | 0.9M (+ ~4.2M on Claude Code's background Haiku for its web tools) |
 | Est. cost | **~$28** | **~$80** (+~$7 Haiku web tooling) |
 | Clarifying questions | 10+ in a ~1h session | ~3 at the start, then quiet for 2.5h |
 | Standout deliverable | live formula-driven **Excel model** | 20k-path **Monte Carlo** + Kelly optimizer |
-| Sources | official-only | official + secondary/press (heavy web search) |
+| Source discipline | official-only | official + secondary/press |
+
+> **Why "parsed by code" is so much smaller than what you see in the repo:** both tools *downloaded and cited* far more than they actually computed on. Sol registered **19** official datasets but its scripts read only **7** raw files; Fable cited **hundreds** of web pages (255 domains / 528 links) but only **8** raw files feed its Python models. The rest is downloaded-but-unused context (PDFs, HTML, extra spreadsheets) or citation-only web sources. In **both**, the parsed data drives only the sector screen + macro layer — never the final dollar allocation, which rests on hand-set assumptions. See [COMPARISON.md → § Data usage](./COMPARISON.md).
 
 Full breakdown → **[COMPARISON.md](./COMPARISON.md)** · exact prompt → **[PROMPT.md](./PROMPT.md)** · data provenance → **[DATA.md](./DATA.md)** · writeup → **[POST.md](./POST.md)**
 
@@ -36,8 +40,11 @@ Full breakdown → **[COMPARISON.md](./COMPARISON.md)** · exact prompt → **[P
 
 ![Sol / Codex investment slide](./gpt-5.6-sol-investment-research/outputs/ukraine_10m_investment_pack_2026/Ukraine_10M_Investment_Thesis.png)
 
-**Fable (Claude)** — a self-contained HTML slide:
-[`claude-fable-5-investment-research/slide/slide.html`](./claude-fable-5-investment-research/slide/slide.html) · [live artifact](https://claude.ai/code/artifact/0eaa9841-ebbc-4851-b2d6-1c0a14d9bd51)
+**Fable (Claude)** — a self-contained HTML slide (rendered here):
+
+![Fable / Claude investment slide](./assets/fable-claude-slide.jpg)
+
+Source: [`claude-fable-5-investment-research/slide/slide.html`](./claude-fable-5-investment-research/slide/slide.html) · [live artifact](https://claude.ai/code/artifact/0eaa9841-ebbc-4851-b2d6-1c0a14d9bd51)
 
 ## Repo layout
 
