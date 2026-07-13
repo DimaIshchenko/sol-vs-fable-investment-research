@@ -1,0 +1,292 @@
+<title>Ukraine $10M — 10-Year Allocation</title>
+<style>
+  :root{
+    --paper:#f5f7fa; --panel:#ffffff; --ink:#16243a; --ink-2:#4b5a72; --ink-3:#8091a7;
+    --line:#dde4ec; --accent:#a8801f; --accent-ink:#8a6a19;
+    --s1:#2a78d6; --s2:#1baf7a; --s3:#eda100; --s4:#008300; --s5:#4a3aa7;
+    --good:#0a7a3d; --bad:#b3372f; --band:#c9d6e6;
+  }
+  @media (prefers-color-scheme: dark){:root{
+    --paper:#12161d; --panel:#1a2029; --ink:#e8edf4; --ink-2:#aab8ca; --ink-3:#71829a;
+    --line:#2a3442; --accent:#d4a83b; --accent-ink:#d4a83b;
+    --s1:#3987e5; --s2:#199e70; --s3:#c98500; --s4:#008300; --s5:#9085e9;
+    --good:#3dbf78; --bad:#e66767; --band:#2e3d52;
+  }}
+  :root[data-theme="dark"]{
+    --paper:#12161d; --panel:#1a2029; --ink:#e8edf4; --ink-2:#aab8ca; --ink-3:#71829a;
+    --line:#2a3442; --accent:#d4a83b; --accent-ink:#d4a83b;
+    --s1:#3987e5; --s2:#199e70; --s3:#c98500; --s4:#008300; --s5:#9085e9;
+    --good:#3dbf78; --bad:#e66767; --band:#2e3d52;
+  }
+  :root[data-theme="light"]{
+    --paper:#f5f7fa; --panel:#ffffff; --ink:#16243a; --ink-2:#4b5a72; --ink-3:#8091a7;
+    --line:#dde4ec; --accent:#a8801f; --accent-ink:#8a6a19;
+    --s1:#2a78d6; --s2:#1baf7a; --s3:#eda100; --s4:#008300; --s5:#4a3aa7;
+    --good:#0a7a3d; --bad:#b3372f; --band:#c9d6e6;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--paper); color:var(--ink); margin:0; padding:28px 22px 40px;
+    font:13px/1.45 -apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-variant-numeric:tabular-nums;}
+  .slide{max-width:1480px; margin:0 auto;}
+  .serif{font-family:"Iowan Old Style",Palatino,"Palatino Linotype","Book Antiqua",Georgia,serif;}
+
+  /* header */
+  .kicker{display:flex; gap:12px; align-items:baseline; color:var(--ink-3);
+    font-size:10.5px; letter-spacing:.14em; text-transform:uppercase;}
+  .kicker b{color:var(--accent-ink); font-weight:600;}
+  .kicker .rule{flex:1; border-top:1px solid var(--line); transform:translateY(-3px);}
+  h1{font-size:30px; line-height:1.14; margin:10px 0 6px; letter-spacing:-.01em; text-wrap:balance; max-width:1100px;}
+  .thesis{color:var(--ink-2); max-width:1050px; margin:0 0 16px; font-size:13.5px;}
+  .statrow{display:flex; flex-wrap:wrap; gap:10px; margin-bottom:18px;}
+  .stat{background:var(--panel); border:1px solid var(--line); border-radius:6px; padding:10px 16px 9px; min-width:150px;}
+  .stat .v{font-size:22px; font-weight:700; letter-spacing:-.01em;}
+  .stat .v em{font-style:normal; font-size:13px; color:var(--ink-3); font-weight:500;}
+  .stat .k{color:var(--ink-3); font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; margin-top:2px;}
+  .stat.hero{border-color:var(--accent); border-width:1.5px;}
+  .stat.hero .v{color:var(--accent-ink); font-size:24px;}
+
+  /* grid */
+  .grid{display:grid; grid-template-columns:minmax(430px,5fr) minmax(340px,4fr) minmax(300px,3.4fr); gap:14px;}
+  @media(max-width:1120px){.grid{grid-template-columns:1fr 1fr}}
+  @media(max-width:760px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px 16px; display:flex; flex-direction:column; gap:8px;}
+  .card h2{font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3); margin:0; font-weight:600;}
+  .card h2 span{color:var(--ink-2); text-transform:none; letter-spacing:0; font-weight:500;}
+  .col{display:flex; flex-direction:column; gap:14px; min-width:0;}
+
+  /* allocation bars */
+  .alloc{display:flex; flex-direction:column; gap:7px;}
+  .arow{display:grid; grid-template-columns:190px 1fr 118px; gap:8px; align-items:center;}
+  .arow .nm{font-size:12.5px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .arow .nm small{display:block; font-weight:400; color:var(--ink-3); font-size:10.5px;}
+  .track{height:18px; background:transparent; position:relative;}
+  .bar{height:18px; border-radius:0 4px 4px 0; position:relative; transition:filter .15s;}
+  .arow:hover .bar{filter:brightness(1.12);}
+  .arow .val{font-size:12px; color:var(--ink-2); text-align:left; white-space:nowrap;}
+  .arow .val b{color:var(--ink); font-size:12.5px;}
+
+  /* opportunity table */
+  table{border-collapse:collapse; width:100%; font-size:11.8px;}
+  th{color:var(--ink-3); font-size:10px; text-transform:uppercase; letter-spacing:.08em; font-weight:600;
+     text-align:right; padding:4px 6px; border-bottom:1px solid var(--line);}
+  th:first-child{text-align:left;}
+  td{padding:4.5px 6px; text-align:right; border-bottom:1px solid var(--line); color:var(--ink-2); white-space:nowrap;}
+  td:first-child{text-align:left; color:var(--ink); font-weight:500;}
+  tr.funded td:first-child::before{content:"●"; margin-right:6px; font-size:9px; vertical-align:1px;}
+  tr.f1 td:first-child::before{color:var(--s1)} tr.f2 td:first-child::before{color:var(--s2)}
+  tr.f3 td:first-child::before{color:var(--s3)} tr.f4 td:first-child::before{color:var(--s4)}
+  tr.f5 td:first-child::before{color:var(--s5)}
+  tr.pass td{color:var(--ink-3);} tr.pass td:first-child{color:var(--ink-3); font-weight:400;}
+  tr.pass td:first-child::before{content:"○"; margin-right:6px; font-size:9px; vertical-align:1px; color:var(--ink-3);}
+  td.pos{color:var(--good); font-weight:600;} td.hot{color:var(--ink); font-weight:700;}
+  .tablewrap{overflow-x:auto;}
+
+  /* scenarios */
+  .scen{display:grid; grid-template-columns:repeat(3,1fr); gap:8px;}
+  .sc{border:1px solid var(--line); border-radius:6px; padding:9px 10px 8px;}
+  .sc .p{font-size:10px; color:var(--ink-3); letter-spacing:.08em; text-transform:uppercase;}
+  .sc .m{font-size:20px; font-weight:700; margin:2px 0;}
+  .sc .d{font-size:10.8px; color:var(--ink-2); line-height:1.35;}
+  .sc.peace .m{color:var(--good);} .sc.escal .m{color:var(--bad);}
+
+  /* monte carlo band */
+  .mc{margin-top:2px;}
+  .mcband{position:relative; height:44px;}
+  .mcaxis{position:absolute; left:0; right:0; top:26px; border-top:1px solid var(--line);}
+  .mcrange{position:absolute; top:18px; height:16px; background:var(--band); border-radius:8px;}
+  .mciqr{position:absolute; top:18px; height:16px; background:var(--s1); opacity:.55; border-radius:8px;}
+  .mcmed{position:absolute; top:14px; width:3px; height:24px; background:var(--accent); border-radius:2px;}
+  .mclab{position:absolute; font-size:10.5px; color:var(--ink-3); top:0; transform:translateX(-50%); white-space:nowrap;}
+  .mclab b{color:var(--ink); font-size:11.5px;}
+  .mcstart{position:absolute; top:14px; width:1.5px; height:24px; background:var(--ink-3);}
+  .mcfoot{display:flex; justify-content:space-between; color:var(--ink-3); font-size:10.5px; margin-top:2px;}
+
+  /* sector ranking */
+  .rank{display:flex; flex-direction:column; gap:5px;}
+  .rrow{display:grid; grid-template-columns:16px 158px 1fr 34px; gap:7px; align-items:center; font-size:12px;}
+  .rrow .n{color:var(--ink-3); font-size:10.5px;}
+  .rrow .rbar{height:11px; border-radius:0 3px 3px 0; background:var(--s1);}
+  .rrow.dim .rbar{background:var(--band);}
+  .rrow .sc2{text-align:right; color:var(--ink-2); font-size:11.5px;}
+  .note{font-size:11px; color:var(--ink-2); border-left:3px solid var(--accent); padding:2px 0 2px 9px; margin-top:2px;}
+
+  /* evidence + risks */
+  .chips{display:flex; flex-direction:column; gap:7px;}
+  .chip{display:grid; grid-template-columns:auto 1fr; gap:9px; align-items:baseline; font-size:11.8px; color:var(--ink-2);}
+  .chip .big{font-size:15px; font-weight:700; color:var(--ink); white-space:nowrap; min-width:74px; text-align:right;}
+  .risks{font-size:11.3px; color:var(--ink-2); display:flex; flex-direction:column; gap:6px;}
+  .risks li{margin:0 0 0 0; list-style:none;}
+  .risks b{color:var(--ink);}
+  .risks .r{display:grid; grid-template-columns:auto 1fr; gap:8px;}
+  .risks .tag{color:var(--bad); font-weight:700; font-size:10px; letter-spacing:.06em; text-transform:uppercase; padding-top:1px;}
+  .steps{font-size:11.3px; color:var(--ink-2); display:flex; flex-direction:column; gap:5px; counter-reset:st;}
+  .steps div{display:grid; grid-template-columns:18px 1fr; gap:7px;}
+  .steps div::before{counter-increment:st; content:counter(st); color:var(--accent-ink); font-weight:700; font-size:11px;}
+
+  footer{margin-top:16px; padding-top:10px; border-top:1px solid var(--line); color:var(--ink-3);
+    font-size:10.3px; line-height:1.5; display:flex; gap:24px; flex-wrap:wrap; justify-content:space-between;}
+  footer .src{max-width:900px;}
+  @media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+
+<div class="slide">
+  <div class="kicker"><b>Investment research</b><span>Ukraine · private investor · $10M · 10-year horizon</span><span class="rule"></span><span>9 July 2026</span></div>
+  <h1 class="serif">Ukraine at the discount window: five positions for the 10-year rebuild</h1>
+  <p class="thesis">Official statistics show a war economy that already reprices the future: farmland at 17–25% of EU-peer prices that only Ukrainian citizens may buy, profitable IT companies at 3–4× EBITDA, and power-flexibility assets earning 2–4-year paybacks off a 43.5&nbsp;GW generation deficit. A barbell of convergence assets and war-economy cash engines — hedged with defense tech that pays <i>most</i> if things get worse — targets maximum compounded return without a ruin branch.</p>
+
+  <div class="statrow">
+    <div class="stat hero"><div class="v">2.69×</div><div class="k">Expected 10-yr multiple*</div></div>
+    <div class="stat"><div class="v">13.3<em>%/yr</em></div><div class="k">Blended expected IRR</div></div>
+    <div class="stat"><div class="v">$26.0<em>M</em></div><div class="k">Monte-Carlo median (20k paths)</div></div>
+    <div class="stat"><div class="v">1.43×</div><div class="k">Escalation-scenario floor</div></div>
+    <div class="stat"><div class="v">1.7<em>%</em></div><div class="k">P(end &lt; $10M nominal)</div></div>
+    <div class="stat"><div class="v">2.42×</div><div class="k">Still, at bearish 25/45/30 odds</div></div>
+  </div>
+
+  <div class="grid">
+    <!-- ============ column 1: allocation + opportunity set ============ -->
+    <div class="col">
+      <div class="card">
+        <h2>Recommended allocation <span>— $10M, max expected log-wealth under capacity caps</span></h2>
+        <div class="alloc">
+          <div class="arow" title="Farmland: PEACE 3.45x / FROZEN 2.08x / ESCALATION 1.03x">
+            <div class="nm">Farmland — 1,500–2,000 ha<small>central/west oblasts, via 100%-Ukrainian LLC</small></div>
+            <div class="track"><div class="bar" style="width:100%;background:var(--s1)"></div></div>
+            <div class="val"><b>$2.52M</b> · 25.2%</div>
+          </div>
+          <div class="arow" title="IT acquisition: PEACE 6.83x / FROZEN 3.40x / ESCALATION 1.15x">
+            <div class="nm">IT-outsourcing acquisition<small>~100-person Diia City firm @ 3.5× EBITDA</small></div>
+            <div class="track"><div class="bar" style="width:99.2%;background:var(--s2)"></div></div>
+            <div class="val"><b>$2.50M</b> · 25.0%</div>
+          </div>
+          <div class="arow" title="Flexible generation: PEACE 1.72x / FROZEN 2.54x / ESCALATION 1.89x">
+            <div class="nm">Flexible generation<small>gas CHP units + BESS via Ukrenergo auction</small></div>
+            <div class="track"><div class="bar" style="width:78.6%;background:var(--s3)"></div></div>
+            <div class="val"><b>$1.98M</b> · 19.8%</div>
+          </div>
+          <div class="arow" title="Defense-tech venture: PEACE 1.92x / FROZEN 2.39x / ESCALATION 2.54x">
+            <div class="nm">Defense-tech venture basket<small>2–3 funds (MITS/UA1/GFV) + Brave1 co-invest</small></div>
+            <div class="track"><div class="bar" style="width:59.5%;background:var(--s4)"></div></div>
+            <div class="val"><b>$1.50M</b> · 15.0%</div>
+          </div>
+          <div class="arow" title="OVDP: PEACE 2.27x / FROZEN 1.55x / ESCALATION 0.82x">
+            <div class="nm">UAH OVDP ladder<small>1–3y military bonds, 0% tax, dry powder</small></div>
+            <div class="track"><div class="bar" style="width:59.5%;background:var(--s5)"></div></div>
+            <div class="val"><b>$1.50M</b> · 15.0%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Opportunity set <span>— 10-yr USD, after Ukrainian tax, per $1M (● funded · ○ passed)</span></h2>
+        <div class="tablewrap">
+        <table>
+          <tr><th>Opportunity</th><th>Exp. IRR</th><th>Exp. ×</th><th>Peace ×</th><th>Frozen ×</th><th>Escal. ×</th></tr>
+          <tr class="funded f2"><td>IT-outsourcing acquisition @3.5× EBITDA</td><td class="hot">21.2%</td><td class="hot">4.32</td><td class="pos">6.83</td><td>3.40</td><td>1.15</td></tr>
+          <tr class="funded f3"><td>Flexible generation (CHP + BESS)</td><td class="hot">16.6%</td><td>2.08</td><td>1.72</td><td class="pos">2.54</td><td>1.89</td></tr>
+          <tr class="funded f4"><td>Defense-tech venture basket</td><td>10.7%</td><td>2.23</td><td>1.92</td><td>2.39</td><td class="pos">2.54</td></tr>
+          <tr class="funded f1"><td>Farmland via LLC (passive lease case)</td><td>9.6%</td><td>2.42</td><td class="pos">3.45</td><td>2.08</td><td>1.03</td></tr>
+          <tr class="funded f5"><td>UAH OVDP ladder (tax-free 14–15.8%)</td><td>4.8%</td><td>1.69</td><td>2.27</td><td>1.55</td><td>0.82</td></tr>
+          <tr class="pass"><td>Warehouse build-to-lease, small-format</td><td>9.6%</td><td>2.10</td><td>2.55</td><td>2.02</td><td>1.38</td></tr>
+          <tr class="pass"><td>Solar PV, operating plants @$0.65M/MW</td><td>8.1%</td><td>1.84</td><td>2.17</td><td>1.78</td><td>1.28</td></tr>
+          <tr class="pass"><td>Eurobonds B-2036 @58 (2022 trade is over)</td><td>2.2%</td><td>1.39</td><td>2.04</td><td>1.13</td><td>0.60</td></tr>
+        </table>
+        </div>
+        <div class="note">Farmland modeled passively (net lease ~4.5%); self-operating lifts it to the 15–25%/yr farm-EBITDA channel at operating risk. Defense VC is the only asset whose <b>worst macro case is its best case</b> — it is the portfolio's hedge.</div>
+      </div>
+    </div>
+
+    <!-- ============ column 2: scenarios + MC + sectors ============ -->
+    <div class="col">
+      <div class="card">
+        <h2>Scenario engine <span>— portfolio multiple by 2036</span></h2>
+        <div class="scen">
+          <div class="sc peace"><div class="p">Peace · 40%</div><div class="m">3.55×</div><div class="d">Ceasefire by ~2028, EU track 2030–34, $588B rebuild demand; UAH −3%/yr</div></div>
+          <div class="sc"><div class="p">Frozen · 40%</div><div class="m">2.47×</div><div class="d">War grinds on, muddle-through financing; UAH −7%/yr, GDP +1.5%</div></div>
+          <div class="sc escal"><div class="p">Escalation · 20%</div><div class="m">1.43×</div><div class="d">Deeper war, 2nd debt restructuring; UAH −14%/yr — defense &amp; CHP carry the book</div></div>
+        </div>
+        <div class="mc">
+          <div class="mcband">
+            <!-- scale: $0–50M -->
+            <div class="mclab" style="left:23.2%"><b>$11.6M</b> p5</div>
+            <div class="mclab" style="left:52%"><b>$26.0M</b> median</div>
+            <div class="mclab" style="left:91.8%"><b>$45.9M</b> p95</div>
+            <div class="mcaxis"></div>
+            <div class="mcrange" style="left:23.2%;width:68.6%"></div>
+            <div class="mciqr" style="left:39%;width:27.2%"></div>
+            <div class="mcstart" style="left:20%" title="$10M starting capital"></div>
+            <div class="mcmed" style="left:52%"></div>
+          </div>
+          <div class="mcfoot"><span>$0</span><span>Monte Carlo, 20,000 paths · inner band = p25–p75 · tick = $10M start</span><span>$50M</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Sector screen <span>— 9 criteria on official data, top 5 of 11 funded</span></h2>
+        <div class="rank">
+          <div class="rrow"><span class="n">1</span><span>Defense tech</span><div class="rbar" style="width:100%"></div><span class="sc2">7.29</span></div>
+          <div class="rrow"><span class="n">2</span><span>Energy (solar/BESS/DG)</span><div class="rbar" style="width:97%"></div><span class="sc2">7.09</span></div>
+          <div class="rrow"><span class="n">3</span><span>Farmland &amp; agriculture</span><div class="rbar" style="width:94%"></div><span class="sc2">6.84</span></div>
+          <div class="rrow"><span class="n">4</span><span>IT services &amp; Diia City</span><div class="rbar" style="width:91%"></div><span class="sc2">6.61</span></div>
+          <div class="rrow"><span class="n">5</span><span>Liquid sovereign credit</span><div class="rbar" style="width:90%"></div><span class="sc2">6.53</span></div>
+          <div class="rrow dim"><span class="n">6</span><span>Logistics &amp; warehousing</span><div class="rbar" style="width:78%"></div><span class="sc2">5.72</span></div>
+          <div class="rrow dim"><span class="n">7</span><span>Residential development</span><div class="rbar" style="width:78%"></div><span class="sc2">5.67</span></div>
+          <div class="rrow dim"><span class="n">11</span><span>Metals &amp; mining</span><div class="rbar" style="width:53%"></div><span class="sc2">3.88</span></div>
+        </div>
+        <div class="note">Energy is the <b>only major private sector whose USD value-added grew through the war</b>: +42% (2025 vs 2021, Derzhstat GVA). Agri = 56.6% of goods exports (computed from the official trade cube).</div>
+      </div>
+
+      <div class="card">
+        <h2>First 12 months</h2>
+        <div class="steps">
+          <div><span>Park the full $10M in OVDP at ~15% tax-free while deploying (week&nbsp;1).</span></div>
+          <div><span>Form the land LLC; buy at $1.5–2.2k/ha in Poltava/Vinnytsia/Khmelnytskyi + Land-Bank lease auctions; budget a full-time land manager (~2.2&nbsp;ha avg plot).</span></div>
+          <div><span>Mandate MergeWave/InVenture for the IT deal; wartime standard = 50–60% upfront + 12–24-mo earn-out; diligence staff deferments.</span></div>
+          <div><span>Bid the ≥500&nbsp;MW 2026 Ukrenergo flexibility auction via developer JV; contract 2–4 CHP units to industrial offtakers.</span></div>
+          <div><span>Commit to two defense funds + Brave1 Invest club; insure every physical asset under the state scheme (~1% effective).</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ column 3: why now + risks ============ -->
+    <div class="col">
+      <div class="card">
+        <h2>Why the window exists <span>— the mispricings</span></h2>
+        <div class="chips">
+          <div class="chip"><span class="big">4–6×</span><span>farmland gap to Bulgaria/Romania/Hungary (€8.7k/ha vs ~$1.5–2.5k) — and only Ukrainian citizens/entities may buy until a referendum lifts the ban</span></div>
+          <div class="chip"><span class="big">3–4×</span><span>EBITDA for profitable Ukrainian IT outsourcers vs 5.9–10× global peers; Diia City locks a 9%/5% tax regime</span></div>
+          <div class="chip"><span class="big">2–4 yrs</span><span>payback on gas CHP against a grid that lost 43.5 GW; Ukrenergo pays 5-yr EUR-fixed capacity fees for flexibility</span></div>
+          <div class="chip"><span class="big">$35B</span><span>defense output capacity (35× since 2022) vs ~⅓ funded domestically — exports legalized 1 Jul 2026 (20% levy), UA names at 2.5–6× revenue vs 10–14× for EU peers</span></div>
+          <div class="chip"><span class="big">$588B</span><span>10-yr reconstruction needs (World Bank RDNA5, Feb-2026) — 2.7× GDP of forward demand</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>What breaks it <span>— and the built-in answer</span></h2>
+        <ul class="risks">
+          <li class="r"><span class="tag">War</span><span>Escalation hits land/CHP/UAH → <b>15% defense hedge + 1%-cost state war insurance</b>; portfolio floor 1.43× nominal.</span></li>
+          <li class="r"><span class="tag">FX</span><span>UAH step-devaluation (−25% in 2022) → <b>~62% of portfolio cash flow is USD/EUR-linked</b> (IT exports, EUR-fixed BESS, land as real asset).</span></li>
+          <li class="r"><span class="tag">People</span><span>Mobilization drains the IT firm → Diia City + critical-status booking (50–100% quotas); staff-mix diligence pre-close.</span></li>
+          <li class="r"><span class="tag">State</span><span>Governance/raider/windfall-tax risk (Ferrexpo seizure, 50% bank CIT) → no regulated monopolies, clean-title diligence, regime diversification.</span></li>
+          <li class="r"><span class="tag">Exit</span><span>Thin M&A market if war persists → OVDP liquidity sleeve + assets with standalone cash yield; land trades 340k ha/yr even now.</span></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Method <span>— in one breath</span></h2>
+        <div class="risks">
+          <li>Official Derzhstat SDMX data (GVA by sector to 2025, trade, capex, CPI to Jun-2026) → sector screen (11 sectors, 9 weighted criteria).</li>
+          <li>8 source-linked research briefs → entry pricing &amp; market rules per opportunity.</li>
+          <li>3 scenarios (odds anchored to Polymarket ~25–40% ceasefire-by-2027 and bond-implied ~50% re-restructuring) → explicit 10-yr after-tax USD cash flows.</li>
+          <li>Max-E[log wealth] optimizer under documented capacity caps → allocation; 20k-path Monte Carlo → distribution. Fully reproducible: <b>uv run calculations/0*.py</b>.</li>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="src"><b>Sources:</b> State Statistics Service of Ukraine (stat.gov.ua SDMX API — national accounts, trade, capital investment, CPI, construction) · NBU (FX, rates, capital-control resolutions) · MinFin (OVDP, eurobond restructuring) · World Bank RDNA5 &amp; API · IMF EFF (Jun-2026) · KSE Land Market Review · Ukrenergo · Brave1 · CBRE/Expandia · full provenance in <b>ukraine-investment-research/sources/</b>. *Expected multiple = probability-weighted nominal USD distributions over 10 yrs, after Ukrainian taxes, interim cash not reinvested.</div>
+    <div>Analysis dated 9 Jul 2026 · Not financial advice · Wartime investment can lose 100%</div>
+  </footer>
+</div>

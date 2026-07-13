@@ -1,0 +1,9 @@
+opportunity,weight,usd_m,weight_maxEV,moic_PEACE,moic_FROZEN,moic_ESCALATION,cap,cap_rationale
+"Farmland (2,000+ ha via LLC)",0.252,2.52,0.3,3.45,2.08,1.03,0.3,"~1,600-2,000 ha at $1.5-2.5k/ha; assembly pace ~2 plots/ha avg (briefs/01 §7)"
+IT outsourcing acquisition (3.5x EBITDA),0.25,2.5,0.25,6.83,3.4,1.15,0.25,one 100-150p firm + bolt-on ≈ $2-2.5M deal size (briefs/04 §7)
+Flexible generation (CHP+BESS),0.198,1.98,0.0,1.72,2.54,1.89,0.2,unit sizes €0.2-0.6M CHP / €6-7M BESS-10MW; pipeline & auction risk (briefs/02)
+Defense-tech venture basket,0.15,1.5,0.15,1.92,2.39,2.54,0.15,LP minimums unpublished; blind-pool + access risk (briefs/03 §3)
+UAH OVDP ladder (tax-free),0.15,1.5,0.15,2.27,1.55,0.82,0.3,liquid; capped for UAH concentration (briefs/06 §3)
+Solar PV (operating plants),0.0,0.0,0.0,2.17,1.78,1.28,0.15,secondary-market depth: 1-10MW listings (briefs/02 §8)
+Warehouse build-to-lease (small-format),0.0,0.0,0.15,2.55,2.02,1.38,0.2,"$0.4-2M per site, multi-site feasible (briefs/05 §6)"
+Ukraine eurobonds (Series B-2036 @58),0.0,0.0,0.0,2.04,1.13,0.6,0.3,liquid; capped for re-default asymmetry (briefs/06 §7)

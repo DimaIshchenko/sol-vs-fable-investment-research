@@ -1,0 +1,9 @@
+field,definition,source_or_formula
+total_score,Weighted 0-100 sector screen,20% profitability + 20% real growth + 15% export/import substitution + 15% capital efficiency + 15% structural demand + 15% resilience/data confidence
+real_turnover_cagr_2022_2024,Approximate real annual turnover growth,Ukrstat turnover; deflated by cumulative NBU 2023-2024 GDP deflator
+gross_operating_surplus_to_investment,Sector cash-generation proxy,Ukrstat gross operating surplus / latest gross investment
+gross_usd_irr,"Gross equity IRR after portfolio-company tax, before investor tax/fees",Modeled annual USD equity cash flows
+gross_usd_moic,Positive equity proceeds divided by contributions,Modeled annual USD equity cash flows
+npv_at_20pct,Net present value at the selected 20% USD hurdle,SUM(CF_t/(1+20%)^t)
+official_export_anchor_2024_ths_usd,Associated official category export value,"Ukrstat goods or service exports, 2024; not attributed one-for-one to the NACE sector"
+analyst_assumption,"Editable operating, scenario, or deal-structure assumption",Clearly separated from official observations; not represented as an official forecast

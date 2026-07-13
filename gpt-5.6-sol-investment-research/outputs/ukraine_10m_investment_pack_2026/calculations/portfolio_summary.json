@@ -1,0 +1,167 @@
+{
+  "asOfDate": "2026-07-09",
+  "modelCurrency": "USD millions",
+  "hurdleRate": 0.2,
+  "totalCapital": 10,
+  "investedCapital": 9,
+  "reserve": 1,
+  "optimizerObjective": 4.130941164659684,
+  "selected": [
+    {
+      "opportunity_id": "DUALUSE",
+      "opportunity": "Civilian dual-use sensing & autonomy platform",
+      "nace": "72",
+      "allocation_usd_m": 3,
+      "sector_score": 87.6911438467051,
+      "sector_rank": 1,
+      "probability_weighted_irr": 0.3029161233126432,
+      "probability_weighted_moic": 9.950560830099821,
+      "probability_weighted_npv_per_usd": 0.9698194902779665,
+      "target_profile": "Profitable Ukrainian R&D business developing drones, sensors and autonomy software for infrastructure inspection, agriculture, mapping and industrial safety; no weapons activity.",
+      "location": "Kyiv/Lviv/Ivano-Frankivsk engineering hubs; export-led and nationally scalable",
+      "structure": "Preferred equity; board seat; founder vesting; IP assignment; civilian-revenue covenant",
+      "use_of_funds": "Product certification, localized components, EU sales, test equipment and selective tuck-ins",
+      "milestones": "60%+ civilian hard-currency revenue; EBITDA margin >20%; two EU channel partners",
+      "downside_control": "Tranched funding, IP security, end-use compliance, key-person insurance, civilian revenue floor",
+      "exit": "Strategic sale to European industrial-technology, inspection or autonomy platform"
+    },
+    {
+      "opportunity_id": "AGRO",
+      "opportunity": "Soy/protein processing & traceable ingredients",
+      "nace": "10",
+      "allocation_usd_m": 3,
+      "sector_score": 72.47186733427473,
+      "sector_rank": 7,
+      "probability_weighted_irr": 0.2363761704009084,
+      "probability_weighted_moic": 5.886172402682281,
+      "probability_weighted_npv_per_usd": 0.262406386156456,
+      "target_profile": "Mid-sized crusher/extruder producing high-protein meal, food ingredients and oil from traceable Ukrainian crops for EU buyers.",
+      "location": "Vinnytsia, Khmelnytskyi, Ternopil or Lviv oblast",
+      "structure": "Preferred growth equity; feedstock/off-take conditions precedent; inventory controls",
+      "use_of_funds": "Processing line, storage, quality lab, energy resilience and working capital",
+      "milestones": "Secure 70% feedstock; EU traceability compliance; contracted export channel",
+      "downside_control": "Borrowing-base controls, hedged/contracted feedstock, equipment collateral",
+      "exit": "Sale to regional agribusiness or food-ingredient consolidator"
+    },
+    {
+      "opportunity_id": "MATERIALS",
+      "opportunity": "Low-carbon construction materials plant",
+      "nace": "23",
+      "allocation_usd_m": 1.5,
+      "sector_score": 76.1467574369156,
+      "sector_rank": 4,
+      "probability_weighted_irr": 0.23265034535917942,
+      "probability_weighted_moic": 5.688956034515708,
+      "probability_weighted_npv_per_usd": 0.23119613557637206,
+      "target_profile": "Expansion of a western/central Ukrainian producer of dry mixes, insulation, precast components or recycled aggregate with reconstruction contracts.",
+      "location": "Lviv, Rivne, Zhytomyr, Vinnytsia or Khmelnytskyi oblast",
+      "structure": "Preferred equity with equipment security, procurement controls and customer concentration limits",
+      "use_of_funds": "Modern line, heat/power resilience, molds, recycled feedstock and working capital",
+      "milestones": "Two anchor contractors; 65% utilization; product certification; positive unit margins",
+      "downside_control": "Phased equipment orders, hard-asset collateral, minimum-price clauses",
+      "exit": "Strategic sale to regional building-products group or management buyout"
+    },
+    {
+      "opportunity_id": "ENERGY",
+      "opportunity": "Distributed industrial power & storage SPV",
+      "nace": "35",
+      "allocation_usd_m": 1.5,
+      "sector_score": 65.1228693933771,
+      "sector_rank": 11,
+      "probability_weighted_irr": 0.2270533937205619,
+      "probability_weighted_moic": 5.323741658217857,
+      "probability_weighted_npv_per_usd": 0.18394297139712854,
+      "target_profile": "Portfolio of rooftop solar, battery storage and gas/biomass backup serving creditworthy food, logistics and light-industrial off-takers.",
+      "location": "Lviv, Zakarpattia, Vinnytsia, Ternopil and Khmelnytskyi oblasts",
+      "structure": "Asset SPV; 7-10 year take-or-pay PPAs; step-in rights; insured equipment",
+      "use_of_funds": "Generation, BESS, interconnection, controls and reserve equipment",
+      "milestones": "Contract 80% of capacity before build; phased commissioning; DSCR-ready reporting",
+      "downside_control": "Multiple off-takers, modular phases, equipment security, political-risk insurance pursuit",
+      "exit": "Yield platform sale to infrastructure/energy investor after operating track record"
+    }
+  ],
+  "portfolioScenarios": [
+    {
+      "scenario": "Downside",
+      "probability": 0.25,
+      "gross_usd_irr": 0.030466055562615058,
+      "gross_usd_moic": 1.2922355367398481,
+      "npv_at_20pct_usd_m": -7.101998951169008
+    },
+    {
+      "scenario": "Base",
+      "probability": 0.5,
+      "gross_usd_irr": 0.22927669922929905,
+      "gross_usd_moic": 5.76494578911951,
+      "npv_at_20pct_usd_m": 2.1254939435786557
+    },
+    {
+      "scenario": "Upside",
+      "probability": 0.25,
+      "gross_usd_irr": 0.3621395818056361,
+      "gross_usd_moic": 13.189571379999785,
+      "npv_at_20pct_usd_m": 16.77457855462514
+    }
+  ],
+  "probabilityWeighted": {
+    "grossUsdIrr": 0.24554238527693983,
+    "grossUsdMoic": 6.502924623744664,
+    "npvAt20PctUsdM": 3.48089187265336,
+    "cashFlows": [
+      -10,
+      0,
+      0.406714658952,
+      1.255030466093653,
+      1.8019087298885306,
+      2.285136350804849,
+      2.538797295734928,
+      2.8269575262794993,
+      3.154642137912303,
+      3.5276600340798416,
+      47.23239903770103
+    ]
+  },
+  "macroAssumptions": {
+    "inflation": [
+      0.075,
+      0.06,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "fxDepreciation": [
+      0.07,
+      0.06,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "corporateTax": 0.18,
+    "hurdleRate": 0.2
+  },
+  "scenarioWeights": {
+    "Downside": 0.25,
+    "Base": 0.5,
+    "Upside": 0.25
+  },
+  "officialExportAnchors": {
+    "agroProcessing": 9512177.8,
+    "constructionMaterials": 326038.7,
+    "machineryElectrical": 3142965.2,
+    "transportEquipment": 431747.3,
+    "transportServices": 3843120.7,
+    "ictServices": 3786313.6,
+    "businessServices": 1254610.2
+  },
+  "dataCaveat": "Ukrstat enterprise series exclude temporarily occupied territories and parts of territories where military actions are/were conducted; comparisons spanning 2022 require caution."
+}

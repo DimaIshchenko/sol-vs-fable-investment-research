@@ -1,0 +1,25 @@
+opportunity,scenario,irr,moic,note
+"Farmland (2,000+ ha via LLC)",PEACE,0.1503,3.45,"briefs/01 §2,4,5; briefs/07 §6: 15-25% unlevered EBITDA yield alternative if self-operated"
+"Farmland (2,000+ ha via LLC)",FROZEN,0.0881,2.08,"briefs/01 §2,4,5; briefs/07 §6: 15-25% unlevered EBITDA yield alternative if self-operated"
+"Farmland (2,000+ ha via LLC)",ESCALATION,0.003,1.03,"briefs/01 §2,4,5; briefs/07 §6: 15-25% unlevered EBITDA yield alternative if self-operated"
+Solar PV (operating plants),PEACE,0.1055,2.17,"briefs/02 §1,8: 11% EBIT yield on $650k/MW; caps on DAM prices"
+Solar PV (operating plants),FROZEN,0.0801,1.78,"briefs/02 §1,8: 11% EBIT yield on $650k/MW; caps on DAM prices"
+Solar PV (operating plants),ESCALATION,0.0348,1.28,"briefs/02 §1,8: 11% EBIT yield on $650k/MW; caps on DAM prices"
+Flexible generation (CHP+BESS),PEACE,0.1277,1.72,"briefs/02 §2,4: payback 2-4y; 5-yr EUR-fixed aFRR contracts"
+Flexible generation (CHP+BESS),FROZEN,0.2222,2.54,"briefs/02 §2,4: payback 2-4y; 5-yr EUR-fixed aFRR contracts"
+Flexible generation (CHP+BESS),ESCALATION,0.1314,1.89,"briefs/02 §2,4: payback 2-4y; 5-yr EUR-fixed aFRR contracts"
+Warehouse build-to-lease (small-format),PEACE,0.1247,2.55,"briefs/05 §1,6: vacancy 3%, Lviv rents > Kyiv"
+Warehouse build-to-lease (small-format),FROZEN,0.0943,2.02,"briefs/05 §1,6: vacancy 3%, Lviv rents > Kyiv"
+Warehouse build-to-lease (small-format),ESCALATION,0.0413,1.38,"briefs/05 §1,6: vacancy 3%, Lviv rents > Kyiv"
+IT outsourcing acquisition (3.5x EBITDA),PEACE,0.3081,6.83,briefs/04: 3-4x entry vs 5.9-10x peers
+IT outsourcing acquisition (3.5x EBITDA),FROZEN,0.2096,3.4,briefs/04: 3-4x entry vs 5.9-10x peers
+IT outsourcing acquisition (3.5x EBITDA),ESCALATION,0.027,1.15,briefs/04: 3-4x entry vs 5.9-10x peers
+Defense-tech venture basket,PEACE,0.0871,1.92,briefs/03: $105M 2025 funding; 2.5-6x rev vs 10-14x EU peers
+Defense-tech venture basket,FROZEN,0.1178,2.39,briefs/03: $105M 2025 funding; 2.5-6x rev vs 10-14x EU peers
+Defense-tech venture basket,ESCALATION,0.1269,2.54,briefs/03: $105M 2025 funding; 2.5-6x rev vs 10-14x EU peers
+Ukraine eurobonds (Series B-2036 @58),PEACE,0.084,2.04,briefs/06: +30-60% normalization vs -30-40% re-default
+Ukraine eurobonds (Series B-2036 @58),FROZEN,0.0214,1.13,briefs/06: +30-60% normalization vs -30-40% re-default
+Ukraine eurobonds (Series B-2036 @58),ESCALATION,-0.1003,0.6,briefs/06: +30-60% normalization vs -30-40% re-default
+UAH OVDP ladder (tax-free),PEACE,0.0854,2.27,"briefs/06 §3: 1-2y 15.1-15.8%, PIT+ML exempt"
+UAH OVDP ladder (tax-free),FROZEN,0.0448,1.55,"briefs/06 §3: 1-2y 15.1-15.8%, PIT+ML exempt"
+UAH OVDP ladder (tax-free),ESCALATION,-0.0194,0.82,"briefs/06 §3: 1-2y 15.1-15.8%, PIT+ML exempt"

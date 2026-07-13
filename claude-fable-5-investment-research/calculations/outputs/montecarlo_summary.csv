@@ -1,0 +1,10 @@
+metric,value_usd_m
+p5,11.6
+p25,19.5
+median,26.0
+p75,33.1
+p95,45.9
+mean,27.0
+prob_below_10M,0.017
+prob_below_6M,0.0
+prob_above_25M,0.539

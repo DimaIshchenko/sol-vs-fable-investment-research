@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# Editors
+.idea/
+.vscode/
+*.swp

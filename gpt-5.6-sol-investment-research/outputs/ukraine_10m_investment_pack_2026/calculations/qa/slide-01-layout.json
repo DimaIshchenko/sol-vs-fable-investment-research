@@ -1,0 +1,4039 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/brrnzg",
+    "id": "brrnzg",
+    "slide": 1,
+    "layoutId": "3d95835f-347f-4bf1-9318-36400962b054",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "cb3d8e97-dce1-4c30-ab65-ef62f6089e4b",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "3d95835f-347f-4bf1-9318-36400962b054",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "cb3d8e97-dce1-4c30-ab65-ef62f6089e4b",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "cb3d8e97-dce1-4c30-ab65-ef62f6089e4b",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6xc7yps",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        8,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#1675D1",
+      "lineColor": "#1675D1",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k76dgjqd",
+      "id": "2",
+      "bbox": [
+        42,
+        25,
+        1190,
+        83
+      ],
+      "geometry": "rect",
+      "text": "Four focused bets can clear a 20% USD hurdle - without underwriting frontline exposure",
+      "textPreview": "Four focused bets can clear a 20% USD hurdle - without underwriting frontline exposure",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Four focused bets can clear a 20% USD hurdle - without"
+          },
+          {
+            "index": 2,
+            "text": "underwriting frontline exposure"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Four focused bets can clear a 20% USD hurdle - without underwriting frontline exposure",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Four focused bets can clear a 20% USD hurdle - without underwriting frontline exposure",
+              "fontSize": 38,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58fu9o7i",
+      "id": "3",
+      "bbox": [
+        42,
+        116,
+        1196,
+        64
+      ],
+      "geometry": "rect",
+      "fillColor": "#0C203A",
+      "lineColor": "#0C203A",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/69ovit83",
+      "id": "4",
+      "bbox": [
+        58,
+        124,
+        220,
+        17
+      ],
+      "geometry": "rect",
+      "text": "$10M MANDATE",
+      "textPreview": "$10M MANDATE",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11.51,
+        "typeface": "+mn-lt",
+        "color": "#B9DBFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "$10M MANDATE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "$10M MANDATE",
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "color": "#B9DBFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "$10M MANDATE",
+              "fontSize": 11.51,
+              "color": "#B9DBFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7uhcbypo",
+      "id": "5",
+      "bbox": [
+        58,
+        142,
+        220,
+        28
+      ],
+      "geometry": "rect",
+      "text": "$9M deployed + $1M reserve",
+      "textPreview": "$9M deployed + $1M reserve",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "$9M deployed + $1M"
+          },
+          {
+            "index": 2,
+            "text": "reserve"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "$9M deployed + $1M reserve",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "$9M deployed + $1M reserve",
+              "fontSize": 20,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svqdk3q9",
+      "id": "6",
+      "bbox": [
+        305,
+        124,
+        210,
+        17
+      ],
+      "geometry": "rect",
+      "text": "PROBABILITY-WEIGHTED",
+      "textPreview": "PROBABILITY-WEIGHTED",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11.51,
+        "typeface": "+mn-lt",
+        "color": "#B9DBFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PROBABILITY-WEIGHTED"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PROBABILITY-WEIGHTED",
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "color": "#B9DBFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PROBABILITY-WEIGHTED",
+              "fontSize": 11.51,
+              "color": "#B9DBFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twzud87u",
+      "id": "7",
+      "bbox": [
+        305,
+        142,
+        210,
+        28
+      ],
+      "geometry": "rect",
+      "text": "24.6% IRR  |  6.50x MOIC",
+      "textPreview": "24.6% IRR  |  6.50x MOIC",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "24.6% IRR  |  6.50x"
+          },
+          {
+            "index": 2,
+            "text": "MOIC"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "24.6% IRR  |  6.50x MOIC",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "24.6% IRR  |  6.50x MOIC",
+              "fontSize": 20,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ux8vmd8f",
+      "id": "8",
+      "bbox": [
+        548,
+        124,
+        205,
+        17
+      ],
+      "geometry": "rect",
+      "text": "BASE CASE",
+      "textPreview": "BASE CASE",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11.51,
+        "typeface": "+mn-lt",
+        "color": "#AFC0D5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BASE CASE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BASE CASE",
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "color": "#AFC0D5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BASE CASE",
+              "fontSize": 11.51,
+              "color": "#AFC0D5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fyhcfip0",
+      "id": "9",
+      "bbox": [
+        548,
+        142,
+        205,
+        28
+      ],
+      "geometry": "rect",
+      "text": "22.9% IRR  |  $2.13M NPV",
+      "textPreview": "22.9% IRR  |  $2.13M NPV",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "22.9% IRR  |"
+          },
+          {
+            "index": 2,
+            "text": "$2.13M NPV"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "22.9% IRR  |  $2.13M NPV",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "22.9% IRR  |  $2.13M NPV",
+              "fontSize": 20,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fi14b6ds",
+      "id": "10",
+      "bbox": [
+        782,
+        124,
+        214,
+        17
+      ],
+      "geometry": "rect",
+      "text": "SCENARIO RANGE",
+      "textPreview": "SCENARIO RANGE",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11.51,
+        "typeface": "+mn-lt",
+        "color": "#AFC0D5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SCENARIO RANGE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SCENARIO RANGE",
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "color": "#AFC0D5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SCENARIO RANGE",
+              "fontSize": 11.51,
+              "color": "#AFC0D5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ehsni1c7",
+      "id": "11",
+      "bbox": [
+        782,
+        142,
+        214,
+        28
+      ],
+      "geometry": "rect",
+      "text": "3.0%-36.2% gross USD IRR",
+      "textPreview": "3.0%-36.2% gross USD IRR",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3.0%-36.2% gross"
+          },
+          {
+            "index": 2,
+            "text": "USD IRR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3.0%-36.2% gross USD IRR",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3.0%-36.2% gross USD IRR",
+              "fontSize": 20,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1k3mdgvi",
+      "id": "12",
+      "bbox": [
+        1020,
+        124,
+        197,
+        17
+      ],
+      "geometry": "rect",
+      "text": "MODEL BASIS",
+      "textPreview": "MODEL BASIS",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11.51,
+        "typeface": "+mn-lt",
+        "color": "#AFC0D5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MODEL BASIS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MODEL BASIS",
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "color": "#AFC0D5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MODEL BASIS",
+              "fontSize": 11.51,
+              "color": "#AFC0D5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gju5kbud",
+      "id": "13",
+      "bbox": [
+        1020,
+        142,
+        197,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Unlevered  |  10 years",
+      "textPreview": "Unlevered  |  10 years",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Unlevered  |  10"
+          },
+          {
+            "index": 2,
+            "text": "years"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Unlevered  |  10 years",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Unlevered  |  10 years",
+              "fontSize": 20,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ru147mdg",
+      "id": "14",
+      "bbox": [
+        42,
+        194,
+        304,
+        42
+      ],
+      "geometry": "rect",
+      "fillColor": "#0C203A",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tsnehwv",
+      "id": "15",
+      "bbox": [
+        52,
+        199,
+        284,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Opportunity / target profile",
+      "textPreview": "Opportunity / target profile",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.51,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Opportunity / target profile"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Opportunity / target profile",
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Opportunity / target profile",
+              "fontSize": 14.51,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tgjm9wvm",
+      "id": "16",
+      "bbox": [
+        346,
+        194,
+        164,
+        42
+      ],
+      "geometry": "rect",
+      "fillColor": "#0C203A",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sva5gre1",
+      "id": "17",
+      "bbox": [
+        356,
+        199,
+        144,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Allocation / safer region",
+      "textPreview": "Allocation / safer region",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.51,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Allocation / safer"
+          },
+          {
+            "index": 2,
+            "text": "region"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Allocation / safer region",
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Allocation / safer region",
+              "fontSize": 14.51,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bqlojqd0",
+      "id": "18",
+      "bbox": [
+        510,
+        194,
+        276,
+        42
+      ],
+      "geometry": "rect",
+      "fillColor": "#0C203A",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/apcnqlcf",
+      "id": "19",
+      "bbox": [
+        520,
+        199,
+        256,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Official evidence",
+      "textPreview": "Official evidence",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.51,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Official evidence"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Official evidence",
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Official evidence",
+              "fontSize": 14.51,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m5g7ipwn",
+      "id": "20",
+      "bbox": [
+        786,
+        194,
+        140,
+        42
+      ],
+      "geometry": "rect",
+      "fillColor": "#0C203A",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/76p8rux8",
+      "id": "21",
+      "bbox": [
+        796,
+        199,
+        120,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Analyst base return",
+      "textPreview": "Analyst base return",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.51,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Analyst base"
+          },
+          {
+            "index": 2,
+            "text": "return"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Analyst base return",
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Analyst base return",
+              "fontSize": 14.51,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/87ypkzet",
+      "id": "22",
+      "bbox": [
+        926,
+        194,
+        312,
+        42
+      ],
+      "geometry": "rect",
+      "fillColor": "#0C203A",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/987qt4fy",
+      "id": "23",
+      "bbox": [
+        936,
+        199,
+        292,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Key risk → underwriting control",
+      "textPreview": "Key risk → underwriting control",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.51,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Key risk → underwriting control"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Key risk → underwriting control",
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Key risk → underwriting control",
+              "fontSize": 14.51,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u9grmpwj",
+      "id": "24",
+      "bbox": [
+        42,
+        236,
+        304,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/va98vux4",
+      "id": "25",
+      "bbox": [
+        52,
+        243,
+        284,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Civilian sensing & autonomy\nInfrastructure, farm and industrial inspection",
+      "textPreview": "Civilian sensing & autonomy | Infrastructure, farm and industrial inspection",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Civilian sensing & autonomy"
+          },
+          {
+            "index": 2,
+            "text": "Infrastructure, farm and industrial"
+          },
+          {
+            "index": 3,
+            "text": "inspection"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Civilian sensing & autonomy",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Civilian sensing & autonomy",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Infrastructure, farm and industrial inspection",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Infrastructure, farm and industrial inspection",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wbi9ozep",
+      "id": "26",
+      "bbox": [
+        346,
+        236,
+        164,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcrqx4fa",
+      "id": "27",
+      "bbox": [
+        356,
+        243,
+        144,
+        64
+      ],
+      "geometry": "rect",
+      "text": "$3.0M\nLviv / Kyiv; distributed team",
+      "textPreview": "$3.0M | Lviv / Kyiv; distributed team",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "$3.0M"
+          },
+          {
+            "index": 2,
+            "text": "Lviv / Kyiv;"
+          },
+          {
+            "index": 3,
+            "text": "distributed team"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "$3.0M",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "$3.0M",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Lviv / Kyiv; distributed team",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Lviv / Kyiv; distributed team",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adw7a5gf",
+      "id": "28",
+      "bbox": [
+        510,
+        236,
+        276,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/be58jax0",
+      "id": "29",
+      "bbox": [
+        520,
+        243,
+        256,
+        64
+      ],
+      "geometry": "rect",
+      "text": "NACE 72: 19.5% operating profitability; +17.3% real turnover CAGR; score 87.7. [S02-S05]",
+      "textPreview": "NACE 72: 19.5% operating profitability; +17.3% real turnover CAGR; score 87.7. [S02-S05]",
+      "resolvedFontSize": 14.31,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.31,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NACE 72: 19.5% operating"
+          },
+          {
+            "index": 2,
+            "text": "profitability; +17.3% real turnover"
+          },
+          {
+            "index": 3,
+            "text": "CAGR; score 87.7. [S02-S05]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NACE 72: 19.5% operating profitability; +17.3% real turnover CAGR; score 87.7. [S02-S05]",
+          "resolvedTextStyle": {
+            "fontSize": 14.31,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NACE 72: 19.5% operating profitability; +17.3% real turnover CAGR; score 87.7. [S02-S05]",
+              "fontSize": 14.31,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dkv25c3u",
+      "id": "30",
+      "bbox": [
+        786,
+        236,
+        140,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF3FC",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sjm1c729",
+      "id": "31",
+      "bbox": [
+        796,
+        243,
+        120,
+        64
+      ],
+      "geometry": "rect",
+      "text": "28.9% IRR\n9.0x MOIC",
+      "textPreview": "28.9% IRR | 9.0x MOIC",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "28.9% IRR"
+          },
+          {
+            "index": 2,
+            "text": "9.0x MOIC"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "28.9% IRR",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "28.9% IRR",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "9.0x MOIC",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "9.0x MOIC",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ridk32lo",
+      "id": "32",
+      "bbox": [
+        926,
+        236,
+        312,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qh4jaxk3",
+      "id": "33",
+      "bbox": [
+        936,
+        243,
+        292,
+        64
+      ],
+      "geometry": "rect",
+      "text": "IP / end-use → preferred equity; milestone tranches; IP assignment; civilian-revenue covenant",
+      "textPreview": "IP / end-use → preferred equity; milestone tranches; IP assignment; civilian-revenue covenant",
+      "resolvedFontSize": 14.31,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.31,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "IP / end-use → preferred equity; milestone"
+          },
+          {
+            "index": 2,
+            "text": "tranches; IP assignment; civilian-revenue"
+          },
+          {
+            "index": 3,
+            "text": "covenant"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "IP / end-use → preferred equity; milestone tranches; IP assignment; civilian-revenue covenant",
+          "resolvedTextStyle": {
+            "fontSize": 14.31,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "IP / end-use → preferred equity; milestone tranches; IP assignment; civilian-revenue covenant",
+              "fontSize": 14.31,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18f29c3q",
+      "id": "34",
+      "bbox": [
+        42,
+        236,
+        5,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#1675D1",
+      "lineColor": "#1675D1",
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0761g725",
+      "id": "35",
+      "bbox": [
+        42,
+        314,
+        304,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#F4F6F8",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6dk72lk",
+      "id": "36",
+      "bbox": [
+        52,
+        321,
+        284,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Soy/protein processing\nTraceable ingredients and export-grade by-products",
+      "textPreview": "Soy/protein processing | Traceable ingredients and export-grade by-products",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Soy/protein processing"
+          },
+          {
+            "index": 2,
+            "text": "Traceable ingredients and"
+          },
+          {
+            "index": 3,
+            "text": "export-grade by-products"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Soy/protein processing",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Soy/protein processing",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Traceable ingredients and export-grade by-products",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Traceable ingredients and export-grade by-products",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/el4jexkz",
+      "id": "37",
+      "bbox": [
+        346,
+        314,
+        164,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#F4F6F8",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcb2x83m",
+      "id": "38",
+      "bbox": [
+        356,
+        321,
+        144,
+        64
+      ],
+      "geometry": "rect",
+      "text": "$3.0M\nVinnytsia / Khmelnytskyi",
+      "textPreview": "$3.0M | Vinnytsia / Khmelnytskyi",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "$3.0M"
+          },
+          {
+            "index": 2,
+            "text": "Vinnytsia /"
+          },
+          {
+            "index": 3,
+            "text": "Khmelnytskyi"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "$3.0M",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "$3.0M",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Vinnytsia / Khmelnytskyi",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Vinnytsia / Khmelnytskyi",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 39,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gb214n21",
+      "id": "39",
+      "bbox": [
+        510,
+        314,
+        276,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#F4F6F8",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k7a5cvmp",
+      "id": "40",
+      "bbox": [
+        520,
+        321,
+        256,
+        64
+      ],
+      "geometry": "rect",
+      "text": "NACE 10: 4.7% operating profitability; +3.1% real turnover CAGR; score 72.5; $9.5bn export anchor. [S02-S07]",
+      "textPreview": "NACE 10: 4.7% operating profitability; +3.1% real turnover CAGR; score 72.5; $9.5bn export anchor. [S02-S07]",
+      "resolvedFontSize": 14.31,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.31,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NACE 10: 4.7% operating"
+          },
+          {
+            "index": 2,
+            "text": "profitability; +3.1% real turnover"
+          },
+          {
+            "index": 3,
+            "text": "CAGR; score 72.5; $9.5bn export"
+          },
+          {
+            "index": 4,
+            "text": "anchor. [S02-S07]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NACE 10: 4.7% operating profitability; +3.1% real turnover CAGR; score 72.5; $9.5bn export anchor. [S02-S07]",
+          "resolvedTextStyle": {
+            "fontSize": 14.31,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NACE 10: 4.7% operating profitability; +3.1% real turnover CAGR; score 72.5; $9.5bn export anchor. [S02-S07]",
+              "fontSize": 14.31,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 41,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l8jm5gna",
+      "id": "41",
+      "bbox": [
+        786,
+        314,
+        140,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF3FC",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y58nal4j",
+      "id": "42",
+      "bbox": [
+        796,
+        321,
+        120,
+        64
+      ],
+      "geometry": "rect",
+      "text": "21.8% IRR\n5.2x MOIC",
+      "textPreview": "21.8% IRR | 5.2x MOIC",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "21.8% IRR"
+          },
+          {
+            "index": 2,
+            "text": "5.2x MOIC"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "21.8% IRR",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "21.8% IRR",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "5.2x MOIC",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5.2x MOIC",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 43,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6143q54",
+      "id": "43",
+      "bbox": [
+        926,
+        314,
+        312,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#F4F6F8",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 44,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3q58bmd",
+      "id": "44",
+      "bbox": [
+        936,
+        321,
+        292,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Feedstock / working capital → contracted supply and offtake; borrowing-base controls; equipment lien",
+      "textPreview": "Feedstock / working capital → contracted supply and offtake; borrowing-base controls; equipment lien",
+      "resolvedFontSize": 14.31,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.31,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Feedstock / working capital → contracted"
+          },
+          {
+            "index": 2,
+            "text": "supply and offtake; borrowing-base"
+          },
+          {
+            "index": 3,
+            "text": "controls; equipment lien"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Feedstock / working capital → contracted supply and offtake; borrowing-base controls; equipment lien",
+          "resolvedTextStyle": {
+            "fontSize": 14.31,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Feedstock / working capital → contracted supply and offtake; borrowing-base controls; equipment lien",
+              "fontSize": 14.31,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 45,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4zm1gny",
+      "id": "45",
+      "bbox": [
+        42,
+        314,
+        5,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#1675D1",
+      "lineColor": "#1675D1",
+      "lineWidth": 0
+    },
+    {
+      "order": 46,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a18n6147",
+      "id": "46",
+      "bbox": [
+        42,
+        392,
+        304,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 47,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2h4z65s",
+      "id": "47",
+      "bbox": [
+        52,
+        399,
+        284,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Low-carbon construction materials\nInsulation, precast or recycled-content products",
+      "textPreview": "Low-carbon construction materials | Insulation, precast or recycled-content products",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Low-carbon construction materials"
+          },
+          {
+            "index": 2,
+            "text": "Insulation, precast or"
+          },
+          {
+            "index": 3,
+            "text": "recycled-content products"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Low-carbon construction materials",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Low-carbon construction materials",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Insulation, precast or recycled-content products",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Insulation, precast or recycled-content products",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 48,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ofq54bmh",
+      "id": "48",
+      "bbox": [
+        346,
+        392,
+        164,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 49,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90zmxwn2",
+      "id": "49",
+      "bbox": [
+        356,
+        399,
+        144,
+        64
+      ],
+      "geometry": "rect",
+      "text": "$1.5M\nLviv / Ternopil corridor",
+      "textPreview": "$1.5M | Lviv / Ternopil corridor",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "$1.5M"
+          },
+          {
+            "index": 2,
+            "text": "Lviv / Ternopil"
+          },
+          {
+            "index": 3,
+            "text": "corridor"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "$1.5M",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "$1.5M",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Lviv / Ternopil corridor",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Lviv / Ternopil corridor",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 50,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/raxon6po",
+      "id": "50",
+      "bbox": [
+        510,
+        392,
+        276,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 51,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q9one183",
+      "id": "51",
+      "bbox": [
+        520,
+        399,
+        256,
+        64
+      ],
+      "geometry": "rect",
+      "text": "NACE 23: 10.6% operating profitability; +8.7% real turnover CAGR; score 76.1. [S02-S05]",
+      "textPreview": "NACE 23: 10.6% operating profitability; +8.7% real turnover CAGR; score 76.1. [S02-S05]",
+      "resolvedFontSize": 14.31,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.31,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NACE 23: 10.6% operating"
+          },
+          {
+            "index": 2,
+            "text": "profitability; +8.7% real turnover"
+          },
+          {
+            "index": 3,
+            "text": "CAGR; score 76.1. [S02-S05]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NACE 23: 10.6% operating profitability; +8.7% real turnover CAGR; score 76.1. [S02-S05]",
+          "resolvedTextStyle": {
+            "fontSize": 14.31,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NACE 23: 10.6% operating profitability; +8.7% real turnover CAGR; score 76.1. [S02-S05]",
+              "fontSize": 14.31,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 52,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcf6pw7u",
+      "id": "52",
+      "bbox": [
+        786,
+        392,
+        140,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF3FC",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 53,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sb65grq9",
+      "id": "53",
+      "bbox": [
+        796,
+        399,
+        120,
+        64
+      ],
+      "geometry": "rect",
+      "text": "21.0% IRR\n4.8x MOIC",
+      "textPreview": "21.0% IRR | 4.8x MOIC",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "21.0% IRR"
+          },
+          {
+            "index": 2,
+            "text": "4.8x MOIC"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "21.0% IRR",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "21.0% IRR",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "4.8x MOIC",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4.8x MOIC",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 54,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fyxob6p0",
+      "id": "54",
+      "bbox": [
+        926,
+        392,
+        312,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 55,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/edoni18f",
+      "id": "55",
+      "bbox": [
+        936,
+        399,
+        292,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Ramp / input prices → phased equipment orders; minimum-price clauses; hard-asset security",
+      "textPreview": "Ramp / input prices → phased equipment orders; minimum-price clauses; hard-asset security",
+      "resolvedFontSize": 14.31,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.31,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ramp / input prices → phased equipment"
+          },
+          {
+            "index": 2,
+            "text": "orders; minimum-price clauses;"
+          },
+          {
+            "index": 3,
+            "text": "hard-asset security"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ramp / input prices → phased equipment orders; minimum-price clauses; hard-asset security",
+          "resolvedTextStyle": {
+            "fontSize": 14.31,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ramp / input prices → phased equipment orders; minimum-price clauses; hard-asset security",
+              "fontSize": 14.31,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 56,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/10z6dg7q",
+      "id": "56",
+      "bbox": [
+        42,
+        392,
+        5,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#1675D1",
+      "lineColor": "#1675D1",
+      "lineWidth": 0
+    },
+    {
+      "order": 57,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0zq5kbq5",
+      "id": "57",
+      "bbox": [
+        42,
+        470,
+        304,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#F4F6F8",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 58,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n2hofqpw",
+      "id": "58",
+      "bbox": [
+        52,
+        477,
+        284,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Distributed industrial power & storage SPV\nBehind-the-meter resilience for multiple plants",
+      "textPreview": "Distributed industrial power & storage SPV | Behind-the-meter resilience for multiple plants",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Distributed industrial power & storage"
+          },
+          {
+            "index": 2,
+            "text": "SPV"
+          },
+          {
+            "index": 3,
+            "text": "Behind-the-meter resilience for"
+          },
+          {
+            "index": 4,
+            "text": "multiple plants"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Distributed industrial power & storage SPV",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Distributed industrial power & storage SPV",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Behind-the-meter resilience for multiple plants",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Behind-the-meter resilience for multiple plants",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 59,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m18nml8b",
+      "id": "59",
+      "bbox": [
+        346,
+        470,
+        164,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#F4F6F8",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 60,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxsrepsj",
+      "id": "60",
+      "bbox": [
+        356,
+        477,
+        144,
+        64
+      ],
+      "geometry": "rect",
+      "text": "$1.5M\nCentral / western industrial sites",
+      "textPreview": "$1.5M | Central / western industrial sites",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "$1.5M"
+          },
+          {
+            "index": 2,
+            "text": "Central / western"
+          },
+          {
+            "index": 3,
+            "text": "industrial sites"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "$1.5M",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "$1.5M",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Central / western industrial sites",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Central / western industrial sites",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 61,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jyl8na94",
+      "id": "61",
+      "bbox": [
+        510,
+        470,
+        276,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#F4F6F8",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 62,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzu9gfap",
+      "id": "62",
+      "bbox": [
+        520,
+        477,
+        256,
+        64
+      ],
+      "geometry": "rect",
+      "text": "NACE 35 score 65.1; power/storage is an official priority despite a -4.3% real turnover CAGR. [S02-S05, S17]",
+      "textPreview": "NACE 35 score 65.1; power/storage is an official priority despite a -4.3% real turnover CAGR. [S02-S05, S17]",
+      "resolvedFontSize": 14.31,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.31,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NACE 35 score 65.1; power/storage"
+          },
+          {
+            "index": 2,
+            "text": "is an official priority despite a -4.3%"
+          },
+          {
+            "index": 3,
+            "text": "real turnover CAGR. [S02-S05, S17]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NACE 35 score 65.1; power/storage is an official priority despite a -4.3% real turnover CAGR. [S02-S05, S17]",
+          "resolvedTextStyle": {
+            "fontSize": 14.31,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NACE 35 score 65.1; power/storage is an official priority despite a -4.3% real turnover CAGR. [S02-S05, S17]",
+              "fontSize": 14.31,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 63,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l03qpkra",
+      "id": "63",
+      "bbox": [
+        786,
+        470,
+        140,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF3FC",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 64,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/atsra5sn",
+      "id": "64",
+      "bbox": [
+        796,
+        477,
+        120,
+        64
+      ],
+      "geometry": "rect",
+      "text": "20.9% IRR\n4.6x MOIC",
+      "textPreview": "20.9% IRR | 4.6x MOIC",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "20.9% IRR"
+          },
+          {
+            "index": 2,
+            "text": "4.6x MOIC"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "20.9% IRR",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "20.9% IRR",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "4.6x MOIC",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4.6x MOIC",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 65,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bu18ja98",
+      "id": "65",
+      "bbox": [
+        926,
+        470,
+        312,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#F4F6F8",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 66,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wva9cfad",
+      "id": "66",
+      "bbox": [
+        936,
+        477,
+        292,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Offtaker / damage → multi-offtaker SPV; modular phases; equipment security; pursue PRI",
+      "textPreview": "Offtaker / damage → multi-offtaker SPV; modular phases; equipment security; pursue PRI",
+      "resolvedFontSize": 14.31,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.31,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Offtaker / damage → multi-offtaker SPV;"
+          },
+          {
+            "index": 2,
+            "text": "modular phases; equipment security;"
+          },
+          {
+            "index": 3,
+            "text": "pursue PRI"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Offtaker / damage → multi-offtaker SPV; modular phases; equipment security; pursue PRI",
+          "resolvedTextStyle": {
+            "fontSize": 14.31,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Offtaker / damage → multi-offtaker SPV; modular phases; equipment security; pursue PRI",
+              "fontSize": 14.31,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 67,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xwjqlkry",
+      "id": "67",
+      "bbox": [
+        42,
+        470,
+        5,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#1675D1",
+      "lineColor": "#1675D1",
+      "lineWidth": 0
+    },
+    {
+      "order": 68,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/upwrm9sr",
+      "id": "68",
+      "bbox": [
+        42,
+        548,
+        304,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFF5D6",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 69,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vq5svu9c",
+      "id": "69",
+      "bbox": [
+        52,
+        555,
+        284,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Diligence & follow-on reserve\nRelease only to protect or scale a validated winner",
+      "textPreview": "Diligence & follow-on reserve | Release only to protect or scale a validated winner",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Diligence & follow-on reserve"
+          },
+          {
+            "index": 2,
+            "text": "Release only to protect or scale a"
+          },
+          {
+            "index": 3,
+            "text": "validated winner"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Diligence & follow-on reserve",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Diligence & follow-on reserve",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Release only to protect or scale a validated winner",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Release only to protect or scale a validated winner",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 70,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5k7ul8be",
+      "id": "70",
+      "bbox": [
+        346,
+        548,
+        164,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFF5D6",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 71,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4jytc3ut",
+      "id": "71",
+      "bbox": [
+        356,
+        555,
+        144,
+        64
+      ],
+      "geometry": "rect",
+      "text": "$1.0M\nHeld in USD until conditions clear",
+      "textPreview": "$1.0M | Held in USD until conditions clear",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "$1.0M"
+          },
+          {
+            "index": 2,
+            "text": "Held in USD until"
+          },
+          {
+            "index": 3,
+            "text": "conditions clear"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "$1.0M",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "$1.0M",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Held in USD until conditions clear",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Held in USD until conditions clear",
+              "fontSize": 15.4,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 72,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ipcjyt8",
+      "id": "72",
+      "bbox": [
+        510,
+        548,
+        276,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFF5D6",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 73,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixgbatc3",
+      "id": "73",
+      "bbox": [
+        520,
+        555,
+        256,
+        64
+      ],
+      "geometry": "rect",
+      "text": "No forecast return assigned; current FX and territory orders must be refreshed at signing. [S14, S19]",
+      "textPreview": "No forecast return assigned; current FX and territory orders must be refreshed at signing. [S14, S19]",
+      "resolvedFontSize": 14.31,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.31,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "No forecast return assigned; current"
+          },
+          {
+            "index": 2,
+            "text": "FX and territory orders must be"
+          },
+          {
+            "index": 3,
+            "text": "refreshed at signing. [S14, S19]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "No forecast return assigned; current FX and territory orders must be refreshed at signing. [S14, S19]",
+          "resolvedTextStyle": {
+            "fontSize": 14.31,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "No forecast return assigned; current FX and territory orders must be refreshed at signing. [S14, S19]",
+              "fontSize": 14.31,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 74,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwnuhobi",
+      "id": "74",
+      "bbox": [
+        786,
+        548,
+        140,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFF5D6",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 75,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvet8jux",
+      "id": "75",
+      "bbox": [
+        796,
+        555,
+        120,
+        64
+      ],
+      "geometry": "rect",
+      "text": "1.0x residual\nreturned in Y10",
+      "textPreview": "1.0x residual | returned in Y10",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#8A5A00",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1.0x residual"
+          },
+          {
+            "index": 2,
+            "text": "returned in"
+          },
+          {
+            "index": 3,
+            "text": "Y10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1.0x residual",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#8A5A00",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1.0x residual",
+              "fontSize": 15.4,
+              "color": "#8A5A00",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "returned in Y10",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#8A5A00",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "returned in Y10",
+              "fontSize": 15.4,
+              "color": "#8A5A00",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 76,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vu5cfetc",
+      "id": "76",
+      "bbox": [
+        926,
+        548,
+        312,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFF5D6",
+      "lineColor": "#CDD5DF",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 77,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/utwb69cr",
+      "id": "77",
+      "bbox": [
+        936,
+        555,
+        292,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Execution / data gaps → QoE, sanctions, end-use, security, insurance and governance conditions precedent",
+      "textPreview": "Execution / data gaps → QoE, sanctions, end-use, security, insurance and governance conditions precedent",
+      "resolvedFontSize": 14.31,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.31,
+        "typeface": "+mn-lt",
+        "color": "#0C203A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Execution / data gaps → QoE, sanctions,"
+          },
+          {
+            "index": 2,
+            "text": "end-use, security, insurance and"
+          },
+          {
+            "index": 3,
+            "text": "governance conditions precedent"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Execution / data gaps → QoE, sanctions, end-use, security, insurance and governance conditions precedent",
+          "resolvedTextStyle": {
+            "fontSize": 14.31,
+            "color": "#0C203A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Execution / data gaps → QoE, sanctions, end-use, security, insurance and governance conditions precedent",
+              "fontSize": 14.31,
+              "color": "#0C203A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 78,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1srutsbm",
+      "id": "78",
+      "bbox": [
+        42,
+        548,
+        5,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#D99C13",
+      "lineColor": "#D99C13",
+      "lineWidth": 0
+    },
+    {
+      "order": 79,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0ritkna1",
+      "id": "79",
+      "bbox": [
+        42,
+        642,
+        1125,
+        35
+      ],
+      "geometry": "rect",
+      "text": "Gross USD equity returns after modeled company tax; before investor taxes, fees and carry. Analyst scenarios are not official forecasts. Base case is unlevered. Physical assets must remain outside officially designated active-hostility and occupied territories.",
+      "textPreview": "Gross USD equity returns after modeled company tax; before investor taxes, fees and carry. Analyst scenarios are not official forecasts. ...",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11.51,
+        "typeface": "+mn-lt",
+        "color": "#5B6573",
+        "italic": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Gross USD equity returns after modeled company tax; before investor taxes, fees and carry. Analyst scenarios are not official forecasts. Base case is unlevered. Physical assets must remain outside officially"
+          },
+          {
+            "index": 2,
+            "text": "designated active-hostility and occupied territories."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Gross USD equity returns after modeled company tax; before investor taxes, fees and carry. Analyst scenarios are not official forecasts. Base case is unlevered. Physical assets must remain outside officially designated active-hostility and occupied territories.",
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "color": "#5B6573",
+            "italic": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Gross USD equity returns after modeled company tax; before investor taxes, fees and carry. Analyst scenarios are not official forecasts. Base case is unlevered. Physical assets must remain outside officially designated active-hostility and occupied territories.",
+              "fontSize": 11.51,
+              "color": "#5B6573",
+              "italic": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 80,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjm58bil",
+      "id": "80",
+      "bbox": [
+        42,
+        680,
+        1125,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Sources: Ukrstat S02-S11; NBU S12-S14; UkraineInvest S17-S18; consolidated official territory list S19. Retrieved 9-10 Jul 2026. Full calculations and source files accompany this slide.",
+      "textPreview": "Sources: Ukrstat S02-S11; NBU S12-S14; UkraineInvest S17-S18; consolidated official territory list S19. Retrieved 9-10 Jul 2026. Full cal...",
+      "resolvedFontSize": 10.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10.51,
+        "typeface": "+mn-lt",
+        "color": "#5B6573",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sources: Ukrstat S02-S11; NBU S12-S14; UkraineInvest S17-S18; consolidated official territory list S19. Retrieved 9-10 Jul 2026. Full calculations and source files accompany this slide."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sources: Ukrstat S02-S11; NBU S12-S14; UkraineInvest S17-S18; consolidated official territory list S19. Retrieved 9-10 Jul 2026. Full calculations and source files accompany this slide.",
+          "resolvedTextStyle": {
+            "fontSize": 10.51,
+            "color": "#5B6573",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sources: Ukrstat S02-S11; NBU S12-S14; UkraineInvest S17-S18; consolidated official territory list S19. Retrieved 9-10 Jul 2026. Full calculations and source files accompany this slide.",
+              "fontSize": 10.51,
+              "color": "#5B6573",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 81,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkv61gz6",
+      "id": "81",
+      "bbox": [
+        1186,
+        675,
+        51,
+        22
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#5B6573",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#5B6573",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 12,
+              "color": "#5B6573",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

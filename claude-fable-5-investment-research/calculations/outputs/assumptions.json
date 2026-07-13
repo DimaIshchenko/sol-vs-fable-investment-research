@@ -1,0 +1,39 @@
+{
+  "as_of": "2026-07-09",
+  "horizon_years": 10,
+  "fx_spot_uah_usd": 44.4766,
+  "scenarios": {
+    "PEACE": {
+      "probability": 0.4,
+      "description": "Durable ceasefire/settlement by ~2028; EU accession momentum (Cluster 1 opened Jun-2026; Brussels working range 2030-2034); reconstruction boom (RDNA5 $588bn needs).",
+      "fx_depreciation_pa": 0.03,
+      "real_gdp_pa": 0.05,
+      "rationale": "EBRD ceasefire scenario 5.0% GDP; IMF 2028 4.2%; FX drift = inflation differential only (NBU CPI target path 5%, USD 2.5%)."
+    },
+    "FROZEN": {
+      "probability": 0.4,
+      "description": "War continues / frozen conflict; muddle-through; no EU accession within horizon; continued Western financing at reduced scale.",
+      "fx_depreciation_pa": 0.07,
+      "real_gdp_pa": 0.015,
+      "rationale": "Managed-float realized drift Oct-2023..Jul-2026 ~7.2%/yr; IMF/WB/NBU 2026 forecasts 1.0-1.6%."
+    },
+    "ESCALATION": {
+      "probability": 0.2,
+      "description": "Major escalation: intensified strikes, loss of additional territory, financing stress, second sovereign debt restructuring.",
+      "fx_depreciation_pa": 0.14,
+      "real_gdp_pa": -0.03,
+      "rationale": "War-period realized drift 11.4%/yr plus stress premium; eurobond pricing implies ~50% odds of re-restructuring within 5y (Substack/Trium analysis in brief 06)."
+    }
+  },
+  "probability_rationale": "Polymarket ceasefire-before-2027 ~25-40%; over a 10-year window cumulative odds of some settlement are materially higher than any single year; 40/40/20 is the analyst judgment used here and is stress-tested in 04_portfolio.py.",
+  "tax": {
+    "cit": 0.18,
+    "dividend_pit_ml": 0.1,
+    "securities_gains": 0.23,
+    "ovdp": 0.0,
+    "diia_city_exit_tax": 0.09,
+    "land_sale_first_in_year_held3y": 0.0
+  },
+  "war_risk_insurance_effective": 0.01,
+  "sources": "sources/briefs/08-risk-parameters.md, 06-liquid-instruments.md"
+}
